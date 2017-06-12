@@ -1,0 +1,345 @@
+*
+  padding: 00px
+  margin: 0px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  font-family: 'Poppins', sans-serif
+a
+  text-decoration: none
+.row
+  &:after
+    content: ""
+    display: block
+    visibility: hidden
+    height: 0
+    clear: both
+
+.menu_line
+  margin: 0px auto 15px
+  width: 90%
+  height: 1px
+  background-color: grey 
+  @media (min-width: 668px)
+    display: none
+.menu_line
+  @media (max-width: 668px)
+    display: block
+
+.first_section
+  max-width: 100%
+  min-height: 100vh
+  margin: 0 auto
+  background-image: url(../img/top-bg.jpg)
+  -webkit-background-size: cover
+  -o-background-size: cover 
+  background-size: cover
+  position: relative
+  // @media (max-width: 768px)
+  //   min-height: 900px
+  &__container
+    margin: 0px auto
+    padding-top: 20px
+    max-width: 1000px
+    text-align: center
+    position: relative
+    color: #FFF
+    text-transform: uppercase
+    .container_logo
+      margin: 80px auto 30px
+      .logo_img
+        width: 300px
+    .container_title
+      margin: 10px auto 10px auto
+      font-size: 40px
+      font-weight: 300
+      @media (max-width: 768px)
+        font-size: 30px
+      span
+        font-weight: bold
+.container_scroll
+  text-align: center
+  p
+    text-transform: uppercase
+    font-size: 15px
+    color: rgba(89,100,65,.8)
+    text-shadow: 4px 3px 10px
+    
+    
+    @media (max-width: 668px)
+      display: none
+  img
+    width: 3%  
+    
+    @media (max-width: 668px)
+      width: 9%
+    
+.nav_menu
+  display: none
+  position: relative
+  z-index: 2
+  // background-color: #8e959b
+  text-align: center
+  color: rgba(89,13,65,.7)
+  padding-top: 10px
+  font-size: 30px
+  cursor: pointer
+  min-height: 30px
+  line-height: 30px
+  letter-spacing: .5em
+  text-shadow: 4px 3px 15px
+  
+  @media (max-width: 668px)
+    display: block
+#menu_check
+  display: none
+
+.nav
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  padding-top: 20px
+  white-space: nowrap
+  margin: 0 auto
+  z-index: 1
+  // background: #666
+  text-align: center
+  &:after
+    content: ""
+    display: block
+    width: 90%
+    height: 1px
+    background: rgba(65,32,78,.4)
+    margin: 5px auto
+  &__nav_item
+    display: inline-block
+    // background: #666999
+    .nav_item_link
+      padding: 0 2em
+  @media (max-width: 668px)
+    display: none
+    width: 100%
+    position: absolute
+    text-align: left
+    top: 10px
+    
+#menu_check:checked ~ .nav
+  display: block
+  max-width: 200px
+  margin-top: .6em
+  .nav__nav_item
+    display: block
+    text-align: center
+    .nav_item_link
+      padding: 0
+    
+      
+a.nav_item_link
+  font-weight: 300
+  font-size: 24px
+  letter-spacing: .2em
+  text-transform: uppercase
+  color: rgba(89,100,65,.8)
+  text-shadow: 4px 3px 10px
+  &:hover
+    color: rgba(3,3,3,.5) 
+  @media(min-width: 768px) and (max-width: 992px)
+    font-size: 18px
+  @media (max-width: 668px)
+    color: #FFF 
+  @media(min-width: 480px) and (max-width: 768px)
+    font-size: 15px
+  
+    // #about Section Goes Here
+#about
+  max-width: 1920px
+  min-height: 100vh
+  margin: 0 auto
+  padding-top: 4em
+  // background: pink
+  background: url(../img/groovepaper.png)
+  // @media (max-width: 1080px)
+  //   min-height: 100%
+  .about__container
+    margin: 0px auto
+    max-width: 100%
+    // background: #ccc
+    .about_img
+      float: left
+      margin-left: 5%
+      @media (max-width: 1080px)
+        float: none
+        margin: 0 auto
+      @media (max-width: 668px)
+        padding-top: 10px  
+      .j-wood_img
+        max-width: 500px
+        @media (max-width: 1080px)
+          display: block
+          margin: 0 auto
+          width: 90%  
+        // @media (min-width: 992px) and (max-width: 1200px)
+        //   width: 70%    
+    .about_descr
+      width: 500px
+      float: left
+      margin: 10px 0 80px 1%
+      // background: #444
+      padding-bottom: 0
+      letter-spacing: .5em
+      color: #202020 
+      @media (max-width: 1080px)
+        float: none
+        margin: 10px auto
+        width: 70%
+      h1
+        font-size: 50px
+        text-transform: uppercase
+        font-weight: 300
+      p
+        font-family: 'Open Sans',sans-serif
+        font-weight: 300
+        letter-spacing: .3em
+        margin: 20px auto 10px
+      p+p
+        margin: 30px auto
+      p+p+p
+        margin: 40px auto 0
+        font-family: 'Crafty Girls', cursive
+        font-size: 20px
+        font-weight: bold
+.portfolio
+  width: 100%
+  margin: 0 auto
+  padding-top: 4em
+  background: url("../img/portfolio-bg.jpg")
+  -webkit-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  @media (max-width: 668px)
+    padding-top: 0
+  .portfolio__container
+    margin: 0px auto 30px
+    text-align: center
+      
+    h1.top_subtitle
+      color: #FFF
+      text-transform: uppercase
+      font-weight: 300
+      font-size: 60px
+      letter-spacing: .2em
+      margin-bottom: 50px
+      @media (max-width: 668px)
+        padding-top: 20px 
+        font-size: 35px 
+    .portfolio_photos
+      display: flex
+      flex-flow: row wrap
+      -webkit-justify-content: center 
+      justify-content: center
+      // background: #ccc
+      a
+        margin: 25px
+        &:hover
+          -webkit-transform: scale(1.05)
+          -moz-transform: scale(1.05)
+          -ms-transform: scale(1.05)
+          -o-transform: scale(1.05)
+          transform: scale(1.05)
+          -webkit-transition: all 1s  
+          -moz-transition: all 1s  
+          -ms-transition: all 1s  
+          -o-transition: all 1s  
+          transition: all 1s
+        .portfolio_img
+          @media (max-width: 668px)
+            max-width: 150px
+        
+        
+.contacts
+  max-width: 1920px
+  height: 100vh
+  position: relative
+  padding-top: 4em
+  padding-bottom: 4em
+  margin: 0 auto
+  background: url("../img/white_paperboard.png")
+  
+  .contacts__inner
+    text-align: center
+    text-transform: uppercase
+    @media (max-width: 668px)
+      // margin-top: 0
+      padding-top: 0px
+    
+    h2
+      font-size: 25px
+      margin-bottom: 10px
+      letter-spacing: .1em
+      @media (max-width: 992px)
+        font-size: 18px
+      @media (max-width: 768px)
+        font-size: 14px
+    p
+      font-size: 40px
+      font-weight: 300
+      @media (max-width: 992px)
+        font-size: 30px
+      @media (max-width: 768px)
+        font-size: 20px
+      a
+        color: #202020 
+    h2+p
+      margin-bottom: 10px 
+    &_social
+      .facebook,.twitter,.instagram
+        width: 35px
+        height: 50px
+        display: inline-block
+        background-image: url("../img/social-icons.example.png")
+        -webkit-background-size: 250px 100px 
+        -o-background-size: 250px 100px 
+        background-size: 250px 100px
+        -webkit-border-radius: 10px 
+        border-radius: 10px 
+      .facebook
+        background-position: -2px -50px
+        &:hover
+          background-position: -2px 0   
+      .twitter
+        background-position: 214px -50px 
+        &:hover
+          background-position: 214px 0
+      .instagram
+        background-position: 142px -50px
+        &:hover
+          background-position: 142px 0
+  
+  &_footer
+    position: absolute
+    bottom: 30px
+    right: 0
+    left: 0
+    
+    text-align: center
+    text-transform: uppercase
+    color: #BEBEBE
+    &:before
+      content: ""
+      position: absolute
+      width: 90% 
+      height: 1px
+      bottom: 40px
+      margin-left: -45%
+      background-color: grey 
+    @media (max-width: 668px)
+      font-size: 14px
+    
+    
+
+         
+        
+      
+        
+  
