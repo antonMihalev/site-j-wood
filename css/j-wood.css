@@ -26,7 +26,8 @@ a {
 
 .first_section {
   max-width: 100%;
-  min-height: 700px;
+  min-height: 500px;
+  padding-bottom: 2em;
   margin: 0 auto;
   background-image: url(../img/top-bg.jpg);
   -webkit-background-size: cover;
@@ -163,7 +164,7 @@ a.nav_item_link {
 
 #about {
   max-width: 1920px;
-  min-height: 700px;
+  padding-bottom: 2em;
   margin: 0 auto;
   padding-top: 4em;
   background: url(../img/groovepaper.png); }
@@ -219,7 +220,8 @@ a.nav_item_link {
 .portfolio {
   width: 100%;
   margin: 0 auto;
-  padding-top: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background: url("../img/portfolio-bg.jpg");
   -webkit-background-size: cover;
   -o-background-size: cover;
