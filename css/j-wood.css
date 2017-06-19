@@ -26,7 +26,7 @@ a {
 
 .first_section {
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 700px;
   margin: 0 auto;
   background-image: url(../img/top-bg.jpg);
   -webkit-background-size: cover;
@@ -163,7 +163,7 @@ a.nav_item_link {
 
 #about {
   max-width: 1920px;
-  min-height: 100vh;
+  min-height: 700px;
   margin: 0 auto;
   padding-top: 4em;
   background: url(../img/groovepaper.png); }
@@ -265,10 +265,9 @@ a.nav_item_link {
 
 .contacts {
   max-width: 1920px;
-  height: 100vh;
   position: relative;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 6em;
   margin: 0 auto;
   background: url("../img/white_paperboard.png"); }
   .contacts .contacts__inner {
