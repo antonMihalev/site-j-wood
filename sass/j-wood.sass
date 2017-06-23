@@ -43,7 +43,7 @@ a
     color: #FFF
     text-transform: uppercase
     .container_logo
-      margin: 80px auto 30px
+      margin: 110px auto 30px
       .logo_img
         width: 300px
     .container_title
@@ -82,7 +82,7 @@ a
   position: relative
   z-index: 2
   text-align: center
-  color: rgba(89,13,65,.7)
+  color: rgba(255,255,255,.7)
   padding-top: 10px
   font-size: 30px
   cursor: pointer
@@ -165,6 +165,10 @@ a.nav_item_link
   margin: 0 auto
   padding-top: 4em
   background: url(../img/groovepaper.png)
+  @media (max-width: 668px)
+    padding-top: 1em
+    
+  
   
   .about__container
     margin: 0px auto
@@ -211,6 +215,7 @@ a.nav_item_link
         font-family: 'Crafty Girls', cursive
         font-size: 20px
         font-weight: bold
+// portfolio
 .portfolio
   width: 100%
   margin: 0 auto
@@ -244,6 +249,7 @@ a.nav_item_link
       // background: #ccc
       a
         margin: 25px
+        
         &:hover
           -webkit-transform: scale(1.05)
           -moz-transform: scale(1.05)
@@ -258,6 +264,9 @@ a.nav_item_link
         .portfolio_img
           @media (max-width: 668px)
             max-width: 150px
+          @media (max-width: 480px)
+            max-width: 100px
+          
         
         
 .contacts

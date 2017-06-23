@@ -43,7 +43,7 @@ a {
     color: #FFF;
     text-transform: uppercase; }
     .first_section__container .container_logo {
-      margin: 80px auto 30px; }
+      margin: 110px auto 30px; }
       .first_section__container .container_logo .logo_img {
         width: 300px; }
     .first_section__container .container_title {
@@ -84,7 +84,7 @@ a {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: rgba(89, 13, 65, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   padding-top: 10px;
   font-size: 30px;
   cursor: pointer;
@@ -168,6 +168,9 @@ a.nav_item_link {
   margin: 0 auto;
   padding-top: 4em;
   background: url(../img/groovepaper.png); }
+  @media (max-width: 668px) {
+    #about {
+      padding-top: 1em; } }
   #about .about__container {
     margin: 0px auto;
     max-width: 100%; }
@@ -264,6 +267,9 @@ a.nav_item_link {
         @media (max-width: 668px) {
           .portfolio .portfolio__container .portfolio_photos a .portfolio_img {
             max-width: 150px; } }
+        @media (max-width: 480px) {
+          .portfolio .portfolio__container .portfolio_photos a .portfolio_img {
+            max-width: 100px; } }
 
 .contacts {
   max-width: 1920px;
