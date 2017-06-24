@@ -52,7 +52,7 @@ a {
       font-weight: 300; }
       @media (max-width: 768px) {
         .first_section__container .container_title {
-          font-size: 30px; } }
+          font-size: 20px; } }
       .first_section__container .container_title span {
         font-weight: bold; }
 
@@ -75,7 +75,7 @@ a {
     width: 2%; }
     @media (max-width: 668px) {
       .container_scroll img {
-        width: 5%; } }
+        width: 4%; } }
   .container_scroll:hover p {
     color: #e6e6e6; }
 
