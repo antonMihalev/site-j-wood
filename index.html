@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>J-Wood</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
@@ -11,27 +13,26 @@
 	
 	<link rel="stylesheet" href="css/j-wood.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div class="pagewrapper">
   	<section class="first_section" id="home">
   	<!-- nav start -->
-      <label class="nav_menu" for="menu_check">Menu</label>
+      <label class="nav__menu" for="menu_check">Menu</label>
       <input type="checkbox" id="menu_check">
       <div class="menu_line"></div>
   	  <nav class="nav">
-  	  	<div class="nav__nav_item">
-  	  	  <a href="#" class="nav_item_link">home</a>
+  	  	<div class="nav__item">
+  	  	  <a href="#" class="nav__link">home</a>
   	  	</div>
-  	  	<div class="nav__nav_item">
-  	  	  <a href="#about" class="nav_item_link">about me</a>
+  	  	<div class="nav__item">
+  	  	  <a href="#about" class="nav__link">about me</a>
   	  	</div>
-  	  	<div class="nav__nav_item">
-  	  	  <a href="#portfolio" class="nav_item_link">portfolio</a>
+  	  	<div class="nav__item">
+  	  	  <a href="#portfolio" class="nav__link">portfolio</a>
   	  	</div>
-  	  	<div class="nav__nav_item">
-  	  	  <a href="#contacts" class="nav_item_link">contacts</a>
+  	  	<div class="nav__item">
+  	  	  <a href="#contacts" class="nav__link">contacts</a>
   	  	</div>
   	  </nav>
       
@@ -39,14 +40,14 @@
     
   	  <!--  FIRST SECTION INNER  -->
   	  <div class="first_section__container" >
-  	  	<div class="container_logo">
+  	  	<div class="first_section__logo">
   	  	  <a href="#">
   	  	  	<img src="img/logo.png" alt="logo" class="logo_img">
   	  	  </a>
   	  	</div>
-  	  	<div class="container_title"><span>jwood</span>photography</div>
+  	  	<div class="first_section__title"><span>jwood</span>photography</div>
   	  	
-        <div class="container_scroll">
+        <div class="scroll__container">
       
           <a href="#about">
           <p>scroll down to see more</p>
@@ -56,20 +57,20 @@
   	  </div>
   	</section>
   	<!-- section ABOUT ME  -->
-  	<section id="about">
+  	<section id="about" class="sc">
       
   	  <!--  ABOUT SECTION INNER  -->
-  	  <div class="about__container" id="about__container">
+  	  <div class="about__container">
   	  	<div class="row">
-          <div class="about_img"><img src="img/about-wood.jpg" alt="J-Wood" class="j-wood_img"></div>
-          <div class="about_descr">
+          <div class="about__img"><img src="img/about-wood.jpg" alt="J-Wood" class="j-wood_img"></div>
+          <div class="about__descr">
             <h1>about me</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             <p>Jason Wood</p>
           </div>  
         </div>
-        <div class="container_scroll">
+        <div class="scroll__container">
           <a href="#portfolio">
             <p>keep scrolling, there is still more to come</p>
             <img src="img/ui-16-512.png" alt="scroll">
@@ -81,21 +82,21 @@
   	<section class="portfolio" id="portfolio">      
       <!--  PORTFOLIO SECTION INNER  -->
   	  <div class="portfolio__container">
-  	  	<h1 class="top_subtitle">portfolio</h1>
-  	  	<div class="portfolio_photos">
-  	  		<a href="#"><img src="img/portfolio-foto1.jpg" class="portfolio_img" alt="portfolio photo"></a>
-    	  	<a href="#"><img src="img/portfolio-foto2.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto3.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto4.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto5.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto6.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto7.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto8.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto9.jpg" class="portfolio_img" alt="portfolio photo"></a>
-          <a href="#"><img src="img/portfolio-foto10.jpg" class="portfolio_img" alt="portfolio photo"></a>
+  	  	<h1 class="posrtfolio__subtitle">portfolio</h1>
+  	  	<div class="portfolio__photos">
+  	  		<a href="#"><img src="img/portfolio-foto1.jpg" class="portfolio__img" alt="portfolio photo"></a>
+    	  	<a href="#"><img src="img/portfolio-foto2.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto3.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto4.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto5.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto6.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto7.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto8.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto9.jpg" class="portfolio__img" alt="portfolio photo"></a>
+          <a href="#"><img src="img/portfolio-foto10.jpg" class="portfolio__img" alt="portfolio photo"></a>
   	  	</div>
   	  </div>
-      <div class="container_scroll">
+      <div class="scroll__container">
         <a href="#contacts">
           <p>do you want to see it with your own eyes? Scroll!</p>
           <img src="img/double-arrow.png" alt="scroll">
@@ -104,23 +105,22 @@
   	</section>
 
   	<!-- section CONTACTS !!! -->
-  	<section class="contacts" id="contacts">
+  	<section class="contacts sc" id="contacts">
 
       <!--  CONTACTS SECTION INNER  -->
   	  <div class="contacts__inner">
-  	  	<h2>mail:</h2>
-  	  	<p><a href="mailto:jason@wood.com">jason@wood.com</a> </p>
-  	  	<h2>phone:</h2>
-  	  	<p><a href="tel:+44 212 432 444">+44 212 432 444</a> </p>
-  	  	<h2>social media:</h2>
-  	  	<div class="contacts__inner_social">
-  	  	  <a href="#" class="facebook"></a>
-  	  	  <a href="#" class="twitter"></a>
-  	  	  <a href="#" class="instagram"></a>
+  	  	<p class="contacts__heading">mail:</p>
+  	  	<p class="contacts__text"><a href="mailto:jason@wood.com">jason@wood.com</a> </p>
+  	  	<p class="contacts__heading">phone:</p>
+  	  	<p class="contacts__text"><a href="tel:+44 212 432 444">+44 212 432 444</a> </p>
+  	  	<p class="contacts__heading">social media:</p>
+  	  	<div class="contacts__social">
+  	  	  <a href="#" class="facebook soc"></a>
+  	  	  <a href="#" class="twitter soc"></a>
+  	  	  <a href="#" class="instagram soc"></a>
   	  	</div>
   	  </div>
-      <!-- <div class="footer_line"></div> -->
-  	  <div class="contacts_footer">
+  	  <div class="contacts__footer">
   	  	<p>DESIGNED by Pawel szymankiewicz</p>
   	  </div>
   	</section>
