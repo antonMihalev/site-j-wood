@@ -250,6 +250,9 @@ a {
     justify-content: center; }
     .portfolio__photos a {
       margin: 25px; }
+      @media (min-width: 992px) {
+        .portfolio__photos a {
+          margin: 5px; } }
       .portfolio__photos a:hover {
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);
@@ -261,12 +264,22 @@ a {
         -ms-transition: all 1s;
         -o-transition: all 1s;
         transition: all 1s; }
+  @media (min-width: 991px) {
+    .portfolio__flat {
+      display: none; } }
   @media (max-width: 668px) {
     .portfolio__img {
       max-width: 150px; } }
   @media (max-width: 480px) {
     .portfolio__img {
       max-width: 100px; } }
+  .portfolio__liquid {
+    width: 25%; }
+    @media (max-width: 992px) {
+      .portfolio__liquid {
+        display: none; } }
+    .portfolio__liquid .item__svg {
+      min-height: 300px; }
 
 .contacts {
   position: relative;

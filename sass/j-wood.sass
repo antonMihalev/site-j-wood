@@ -24,7 +24,6 @@ a
     display: block
     
     
-
 .first_section
   max-width: 100%
   min-height: 500px
@@ -78,7 +77,6 @@ a
     color: darken(white,10%)
      
     
-
 #menu_check
   display: none
   &:checked ~ .nav
@@ -153,7 +151,6 @@ a
   
     @media (max-width: 668px)
       display: block
-  
   
     // #about start
 #about
@@ -243,8 +240,11 @@ a
     -webkit-justify-content: center 
     justify-content: center
     // background: #ccc
+    
     a
       margin: 25px
+      @media(min-width: 992px)
+        margin: 5px
       
       &:hover
         -webkit-transform: scale(1.05)
@@ -257,11 +257,20 @@ a
         -ms-transition: all 1s  
         -o-transition: all 1s  
         transition: all 1s
+  &__flat
+    @media(min-width: 991px)
+      display: none
   &__img
     @media (max-width: 668px)
       max-width: 150px
     @media (max-width: 480px)
       max-width: 100px
+  &__liquid
+    width: 25%
+    @media(max-width: 992px)
+      display: none
+    .item__svg
+      min-height: 300px
           
 // contacts start      
 .contacts 
