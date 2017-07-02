@@ -223,6 +223,7 @@ a {
   padding-top: 2em;
   padding-bottom: 2em;
   background: url("../img/portfolio-bg.jpg");
+  background-position: center center;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
@@ -230,15 +231,14 @@ a {
     .portfolio {
       padding-top: 0; } }
   .portfolio__container {
-    margin: 0px auto 30px;
+    margin: 0px auto 10px;
     text-align: center; }
   .portfolio__subtitle {
     color: #FFF;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 60px;
-    letter-spacing: .2em;
-    margin-bottom: 50px; }
+    letter-spacing: .2emk; }
     @media (max-width: 668px) {
       .portfolio__subtitle {
         padding-top: 20px;
